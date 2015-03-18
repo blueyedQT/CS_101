@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 100%;
+}
+body {
+	position: absolute;
+	left: 50%;
+	margin-left: -435px;
+}
+
+#header {
+	width: 970px;
+	display: block;
+}
+#headerContent {
+	width: 970px;
+	height: 74px;
+	display: block;
+	background-color: #780000;
+	border-bottom: 1px solid black;
+}
+#logo {
+	width: 470px;
+	height: 74px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+}
+#rightMenu {
+	width: 400px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	margin-right: 60px;
+	font-size: 80%;
+}
+#rightMenu a {
+	color: #FFCC66;
+}
+input[type=text] {
+	padding: 4px;
+}
+input[type=submit] {
+	background-color: #780000;
+	color: white;
+	border: 1px solid white;
+	padding: 2px;
+}
+#navigation {
+	background-color: #E8E8E8;
+	width: 965px;
+	height: 29px;
+	display: block;
+	border-bottom: 1px solid gray;
+	padding: 10px 0 5px 5px;
+}
+#navigation a {
+	color: #585858;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 6px;
+	font-size: 90%;
+}
+#searchbar {
+	text-align: right;
+	padding-top: 10px;
+}
+#side {
+	background-color: white;
+	width: 250px;
+	min-height: 300px;
+	display: inline-block;4
+	vertical-align: top;
+}
+#content {
+	background-color: white;
+	width: 700px;
+	min-height: 300px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+#sideLinks {
+	margin: 25px;
+	background-color: #E8E8E8;
+	width: 155px;
+	min-height: 200px;
+	border: 1px solid gray;
+	padding: 15px 20px;
+}
+a:link {
+	color: #580000;
+}
+a:visited {
+	color: #800000;
+}
+ul {
+	list-style-position: outside;
+	padding-left: 15px;
+}
+#content ul {
+	margin-left: 40px;
+}
+ul.nav {
+	list-style-type: none;
+	/*display: inline;*/
+}
+ul.nav2 {
+	list-style-type: none;
+	text-align: right;
+}
+li.links {
+	display: inline;
+}
+li.side {
+	padding: 3px;
+}
+li.side2 {
+	padding-left: 6px;
+}
+h1 {
+	color: #780000;
+	padding-bottom: 10px;
+	font-size: 125%;
+}
+h3 {
+	font-weight: bold;
+	color: #780000;
+	padding: 15px 0 10px 0;
+}
+p {
+	padding: 5px 0;
+}
+ol {
+	list-style-position: inside;
+	margin-left: 30px;
+}
+hr {
+	border-bottom: 3px solid gray;
+	padding-top: 10px;
+}
